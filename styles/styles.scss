@@ -1,0 +1,9 @@
+@import 'fonts';
+@import 'normalize';
+@import 'utils';
+@import 'variables';
+@import 'globals';
+@import 'mixins';
+@import 'media';
+
+@import 'Blocks/typing', 'Blocks/navbar', 'Blocks/background', 'Blocks/header', 'Blocks/skills', 'Blocks/portfolio', 'Blocks/footer';

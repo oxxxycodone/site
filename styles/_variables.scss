@@ -1,0 +1,46 @@
+:root{
+    --color-dark: #111;
+    --color-light: #fff;
+    --color-accent: #0f0;
+    --color-icon:rgba(0, 0, 0, 0.5);
+    --color-accent-alt:#00f0ff;
+    --color-icon-light: #fff;
+
+    --color-navbar: rgba(7, 23, 12, 0.773);
+    --color-menu: #0c2014;
+
+    --border: 1px solid var(--color-light);
+    --border-radius: 14px;
+    
+    --box-shadow: 0px 3px 5px var(--color-accent);
+    --box-shadow-hover: 0px 5px 10px 2px var(--color-accent) inset;
+    --box-shadow-before: 0px 1px 11px var(--color-accent);
+    --shadow-alt: 0 0 35px var(--color-accent-alt);
+    --navbar-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    --background-icon-shadow: 0 0 120px var(--color-accent);
+
+    --font-family-base: 'Inter' , sans-serif;
+    --font-family-alt: 'Jersey15' , sans-serif;
+
+
+    --container-width: 1240px;
+    --container-padding-x: 20px;
+
+    --section-padding-y: 50px;
+    --section-padding-y: 50px;
+}
+
+
+
+.light-theme{
+    --color-dark: #ffffff;
+    --color-light: #000000;
+    --color-accent: #0f0;
+    --color-icon:rgba(129, 111, 111, 0.5);
+    --color-accent-alt:#00f0ff;
+    --color-navbar: rgba(96, 110, 119, 0.813);
+    --border: 1px solid var(--color-light);
+    --color-navbar: rgba(255, 255, 255, 0.761);
+    --color-icon-light:#4affcf;
+    --color-menu: #ffffff;
+}

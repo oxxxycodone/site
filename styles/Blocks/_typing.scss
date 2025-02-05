@@ -1,0 +1,27 @@
+
+#typed-text-container {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: 40px;
+    line-height: 1.5;
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+}
+
+#typed-text {
+    display: inline-block;
+    border-right: 2px solid var(--color-light);
+    animation: blink 0.6s step-end infinite;
+    
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
